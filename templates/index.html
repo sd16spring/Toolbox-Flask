@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+
+    <title> Welcome! </title>
+
+</head>
+<body>
+
+
+
+{% if error_message %}
+  <h1>Something went wrong! :(</h1><br>
+  <h2> {{ error_message }} </h2>
+
+{% else %}
+  <h1> Welcome Fren! </h1>
+{% endif %}
+
+<br>
+
+<form action="{{ url_for('login') }}" method="Post" name="login_info">
+  Name?<br>
+  <input type="text" name="user_name"><br>
+  Age?<br>
+  <input type="text" name="user_age"><br>
+  Fav softdes ninja?<br>
+  <input type="text" name="user_fav"><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+
+
+</body>
+
+</html>
