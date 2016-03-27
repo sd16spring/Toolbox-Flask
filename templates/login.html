@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% if name and age %}
+<h1>Profile</h1>
+<h2>{{ name }}</h2>
+Age: {{ age }}<br>
+Favorite SoftDes Ninja: Patrick Huston
+{% else %}
+You forgot some information<br>
+Click <a href="/">here</a>to go back
+{% endif %}
+ 
