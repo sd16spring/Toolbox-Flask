@@ -1,0 +1,41 @@
+.wrapper{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #424242;
+    padding-top: 25vh;
+    min-height: 100vh;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+    background: #d6f9ff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d6f9ff 0%, #9ee8fa 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #d6f9ff 0%,#9ee8fa 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #d6f9ff 0%,#9ee8fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#9ee8fa',GradientType=0 ); /* IE6-9 */
+
+}
+
+.form_wrap{
+    background: #FFFFFF;
+    display: inline-block;
+    padding: 3em;
+    padding-top: 2em;
+    border-radius: 2em;
+}
+
+.form_input{
+    height: 2em;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 2px solid gray;
+    border-radius: 1em;
+    padding-left: .5em;
+}
+
+.form_submit{
+    width: 50%;
+    height: 2em;
+    border-radius: 1em;
+    background: #3498db;
+    font-size: 1em;
+    border: 2px solid gray;
+}

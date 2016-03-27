@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+
+    <title> Welcome! </title>
+    <link rel="stylesheet" type="text/css" href="../static/index.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="wrapper">
+
+
+    <div class="form_wrap">
+        {% if error_message %}
+          <h1 class="title">Something went wrong! :(</h1><br>
+          <h2 class="error_message"> {{ error_message }} </h2>
+
+        {% else %}
+          <h1 class="title"> Welcome Friend! </h1>
+        {% endif %}
+
+        <br>
+
+        <form action="{{ url_for('login') }}" method="Post" name="login_info">
+          <input class="form_input" type="text" name="user_name" placeholder="name"><br>
+          <input class="form_input" type="text" name="user_age" placeholder="age"><br>
+          <input class="form_input" type="text" name="user_fav" placeholder="fav softdes ninja"><br>
+          <input class="form_submit" type="submit" value="Submit">
+        </form>
+
+
+    </div>
+</div>
+</body>
+
+</html>
