@@ -3,7 +3,7 @@
     text-align: center;
     color: #424242;
     padding-top: 25vh;
-    height: 100vh;
+    min-height: 100vh;
 
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
     background: #d6f9ff; /* Old browsers */
