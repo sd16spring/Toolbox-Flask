@@ -29,7 +29,7 @@ def hello_world():
 @app.route('/login', methods=['POST'])
 def login():
 
-    error = None
+    error_message = None
     if valid_login(request.form['user_name'],
                    request.form['user_age'],
                    request.form['user_fav']):
