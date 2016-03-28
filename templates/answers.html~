@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+{% if name and age and fav %}
+  <h1>Name: {{ name }} Age: {{age}} Favorite Ninja: Patrick Huston</h1>
+{% else %}
+  <h1>You forgot something! Click <a href="/"> here </a> </h1>
+{% endif %}
