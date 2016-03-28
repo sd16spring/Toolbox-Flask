@@ -1,0 +1,15 @@
+<html>
+	<title>Form</title>
+	<h1>Login</h1>
+	<div>
+		<form method="post" action="{{ url_for('form') }}">
+	    	<label for="name">Please enter your name:</label>
+	        <input type="text" name="name" /><br />
+	        <label for="age">Please enter your age:</label>
+	        <input type="text" name="age" /><br />
+	        <label for="ninja">Please enter your favorite Sofdes Ninja:</label>
+	        <input type="text" name="ninja" /><br />
+	        <input type="submit" />
+    	</form>
+    </div>
+</html>
